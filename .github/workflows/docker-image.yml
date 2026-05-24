@@ -28,5 +28,5 @@ jobs:
         docker build -t cjotas24/docker-graphql:0.0.1 .
     - name: Push Docker image
       run: |
-        docker push cjotas24/docker-graphql:0.0.1 . 
+        docker push cjotas24/docker-graphql:0.0.1
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
