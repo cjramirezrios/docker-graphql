@@ -41,5 +41,5 @@ jobs:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
         docker push cjotas24/docker-graphql:$NEW_VERSION
-        docker push -t cjotas24/docker-graphql:latest
+        docker push cjotas24/docker-graphql::latest
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
